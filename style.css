@@ -1,0 +1,129 @@
+# blog
+In this project, I have created the frontend of a blog. 
+This is the CSS part : 
+
+.navbar .ul {
+  list-style: none;
+  display: flex;
+  /*border: .8px solid black;*/
+  padding: 0.2px;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
+.items {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  font-family: "Ubuntu";
+}
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: rgb(57, 175, 221);
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  font-family: "Ubuntu";
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  border-radius: 1rem;
+  padding: 0.2rem;
+  flex-wrap: wrap;
+}
+img {
+  width: 10%;
+  height: 10%;
+  border-radius: 5rem;
+  flex-wrap: wrap;
+}
+.head {
+  font-size: 2rem;
+  flex-wrap: wrap;
+  font-family: "Ubuntu";
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  background-image: linear-gradient(to right, #00aaff, #00ff6c);
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
+.first {
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+}
+.second {
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+}
+.third {
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+}
+.fourth {
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+}
+.para {
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: "Ubuntu";
+}
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+  font-family: "Ubuntu";
+}
+body {
+  background-color: black;
+}
+@media (max-width: 611px) {
+  .items {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 432px) {
+  header {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 900px) {
+  img {
+    width: 12%;
+    height: 12%;
+  }
+}
+@media (max-width: 400px) {
+  img {
+    width: 20%;
+    height: 20%;
+  }
+}
